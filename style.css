@@ -26,4 +26,17 @@ p {
     font-size: 13pt;
     line-height: 1.5;
 }
+
+a:hover {
+    color: #C0C0C0;
+}
+
+a:active {
+    color: #008080;
+}
+
+a:link,
+a:visted {
+    color: #FF00FF;
+}
     
