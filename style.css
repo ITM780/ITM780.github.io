@@ -6,3 +6,24 @@ body {
     margin: 15px;
 }
 
+h1 {
+    color: #FF0000;
+    font-size: 20pt;
+}
+
+h2 {
+    color: #00FF00;
+    font-size: 18pt;
+}
+
+h3 {
+    color: #0000FF;
+    font-size: 16pt;
+}
+
+p {
+    color: #666;
+    font-size: 13pt;
+    line-height: 1.5;
+}
+    
