@@ -42,7 +42,7 @@ a:visted {
 
 .table-container {
     display: table;
-    width: 50%;
+    width: 60%;
 }
 
 .row {
@@ -51,6 +51,6 @@ a:visted {
 
 .cell {
     display: table-cell;
-    padding: 10px;
-    border: 1px solid #ccc;
+    padding: 15px;
+    border: 5px solid;
 }
