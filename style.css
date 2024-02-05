@@ -39,3 +39,19 @@ a:link,
 a:visted {
     color: #FF00FF;
 }
+
+.table {
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.row {
+    display: table-row;
+}
+
+.cell {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 8px;
+}
