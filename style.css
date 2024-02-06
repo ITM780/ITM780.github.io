@@ -42,7 +42,8 @@ a:visted {
 
 .table-container {
     display: table;
-    width: 68%;
+    width: 68%
+    height: 40%;
 }
 
 .row {
