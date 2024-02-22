@@ -1,1 +1,16 @@
-function promptname()
+function promptname() {
+  var name = prompt("Please enter your name:" ;
+  var output = document.getElementById("nameOutput") ;
+  output.innerHTML = "Hello, "+ name ;
+}
+function enlargeImage() {
+  var image = document.getElementById("Image") ;
+  image.style.width = 150px ;
+}
+function mouseOver(element) {
+  element.style.backgroundColor = #325 ;
+}
+function mouseOut(element) {
+    element.style.backgroundColor = "" ;
+}
+
