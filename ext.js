@@ -7,10 +7,10 @@ function enlargeImage() {
   var image = document.getElementById("Image") ;
   image.style.width = 150px ;
 }
-function mouseOver(element) {
+function mouseover(element) {
   element.style.backgroundColor = #325 ;
 }
-function mouseOut(element) {
+function mouseout(element) {
     element.style.backgroundColor = "" ;
 }
 
