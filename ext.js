@@ -3,9 +3,10 @@ function promptName() {
     document.getElementById("nameOutput");
     output.innerHTML = "Hello, " + name + "!";
 }
-function enlargeImage() {
-  var image = document.getElementById("Image");
-  image.style.width = "65%";
+function enlargeImage(){
+    var image = document.getElementById("enlargeImage");
+    image.style.width = (image.clientWidth + 250) + "px";
+    image.style.height = (image.clientHeight + 200) + "px";
 }
 function mouseover(element) {
   element.style.backgroundColor = #C0C0C0;
