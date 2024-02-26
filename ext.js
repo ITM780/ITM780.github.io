@@ -5,16 +5,16 @@ function promptName() {
 }
 function enlargeImage() {
   var image = document.getElementById("Image") ;
-  image.style.width = 65px ;
+  image.style.width = 65px;
 }
 function resetImageSize() {
   var image = document.getElementById("Image");
-  image.style.width = 40px ;
+  image.style.width = 40px;
 }
 function mouseover(element) {
-  element.style.backgroundColor = #325 ;
+  element.style.backgroundColor = 325;
 }
 function mouseout(element) {
-    element.style.backgroundColor = #333 ;
+    element.style.backgroundColor = 333;
 }
 
