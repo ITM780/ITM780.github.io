@@ -5,7 +5,7 @@ function promptName() {
 }
 function enlargeImage() {
   var image = document.getElementById("Image") ;
-  image.style.width = 60px ;
+  image.style.width = 65px ;
 }
 function resetImageSize() {
   var image = document.getElementById("Image");
