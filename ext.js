@@ -1,10 +1,10 @@
 function promptName() {
-  var name = prompt("Please enter your name:") ;
-  var output = document.getElementById("nameOutput") ;
+  var name = prompt("Please enter your name:");
+  var output = document.getElementById("nameOutput");
   output.innerHTML = "Hello, "+ name + ".";
 }
 function enlargeImage() {
-  var image = document.getElementById("Image") ;
+  var image = document.getElementById("Image");
   image.style.width = 65px;
 }
 function resetImageSize() {
