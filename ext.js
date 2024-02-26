@@ -1,5 +1,5 @@
-function promptname() {
-  var name = prompt("Please enter your name:" ;
+function promptName() {
+  var name = prompt("Please enter your name:") ;
   var output = document.getElementById("nameOutput") ;
   output.innerHTML = "Hello, "+ name + ".";
 }
