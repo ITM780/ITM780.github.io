@@ -15,6 +15,6 @@ function mouseover(element) {
   element.style.backgroundColor = #325 ;
 }
 function mouseout(element) {
-    element.style.backgroundColor = "" ;
+    element.style.backgroundColor = #333 ;
 }
 
