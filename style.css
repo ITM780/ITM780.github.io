@@ -55,3 +55,16 @@ a:visted {
     padding: 20px;
     border: 4px solid;
 }
+
+.enlargeImage {
+    width: 45%; 
+    height: auto;
+    cursor: pointer;
+}
+
+#enlargeImage {
+    width: 150px; 
+    height: auto;
+    display: block;
+    margin-bottom: 20px; 
+}
