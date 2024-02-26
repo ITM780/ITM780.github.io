@@ -5,11 +5,11 @@ function promptName() {
 }
 function enlargeImage() {
   var image = document.getElementById("Image");
-  image.style.width = 65%;
+  image.style.width = "65%";
 }
 function resetImageSize() {
   var image = document.getElementById("Image");
-  image.style.width = 40%;
+  image.style.width = "40%";
 }
 function mouseover(element) {
   element.style.backgroundColor = #C0C0C0;
