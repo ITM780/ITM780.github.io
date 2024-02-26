@@ -12,7 +12,7 @@ function resetImageSize() {
   image.style.width = 40px;
 }
 function mouseover(element) {
-  element.style.backgroundColor = 325;
+  element.style.backgroundColor = #C0C0C0;
 }
 function mouseout(element) {
     element.style.backgroundColor = 333;
