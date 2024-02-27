@@ -1,7 +1,14 @@
-function promptName() {
-    var name = prompt("Please enter your name:");
-    document.getElementById("Output").innerHTML = name;
-}
+document.addEventListener('DOMContentLoaded', function() {
+    var nameButton = document.getElementById('nameButton');
+    var outputElement = document.getElementById('output');
+
+    nameButton.addEventListener('click', function() {
+        var name = prompt('Please enter your name:');
+        if (name) {
+            outputElement.textContent = 'Hello, ' + name + '!';
+        }
+    });
+});
 function enlargeImage(){
     var image = document.getElementById("enlargeImage");
     image.style.width = (image.clientWidth + 250) + "px";
