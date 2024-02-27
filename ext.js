@@ -9,11 +9,17 @@ document.addEventListener('DOMContentLoaded', function() {
         }
     });
 });
-function enlargeImage(){
-    var image = document.getElementById("enlargeImage");
-    image.style.width = (image.clientWidth + 250) + "px";
-    image.style.height = (image.clientHeight + 200) + "px";
-}
+document.addEventListener('DOMContentLoaded', function() {
+    var myImage = document.getElementById('PImage');
+
+    myImage.addEventListener('click', function() {
+        if (this.style.width === '200px') {
+            this.style.width = '400px'; 
+        } else {
+            this.style.width = '200px'; 
+        }
+    });
+});
 function mouseOver(element){
     element.style.color = "#ADD8E6";
     element.style.fontWeight = "bold";
