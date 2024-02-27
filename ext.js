@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 document.addEventListener('DOMContentLoaded', function() {
-    var myImage = document.getElementById('PImage');
+    var PImage = document.getElementById('PImage');
 
     myImage.addEventListener('click', function() {
         if (this.style.width === '200px') {
