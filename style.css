@@ -109,3 +109,7 @@ nav a:hover {
     color: #FF0000; 
     font-weight: bold; 
 }
+
+nav b {
+    margin-right: 15px; 
+}
