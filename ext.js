@@ -1,9 +1,9 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var nameB = document.getElementById('nameB');
+    var Bname = document.getElementById('Bname');
     var outputElement = document.getElementById('output');
 
     nameB.addEventListener('click', function() {
-        var name = prompt('Please enter your name:');
+        var Bname = prompt('Please enter your name:');
         if (name) {
             outputElement.textContent = 'Hello, ' + name + '!';
         }
