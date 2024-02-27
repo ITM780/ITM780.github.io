@@ -1,14 +1,7 @@
-document.addEventListener('DOMContentLoaded', function() {
-    var nameButton = document.getElementById('nameButton');
-    var outputElement = document.getElementById('output');
-
-    nameButton.addEventListener('click', function() {
-        var name = prompt('Please enter your name:');
-        if (name) {
-            outputElement.textContent = 'Hello, ' + name + '!';
-        }
-    });
-});
+function promptName(){
+    var userName = prompt("Please enter your name:");
+    document.getElementById("name").innerHTML = userName;
+}
 document.addEventListener('DOMContentLoaded', function() {
     var PImage = document.getElementById('PImage');
 
