@@ -89,7 +89,7 @@ a:visted {
 }
 
 .dropdown-content a:hover {
-    background-color: #f0ffff;
+    background-color: #FF0000;
 }
 
 .dropdown:hover .dropdown-content {
@@ -101,7 +101,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #eeffff;
+    color: #ADD8E6;
     font-weight: bold; 
 }
 
