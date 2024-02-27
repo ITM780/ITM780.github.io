@@ -14,10 +14,10 @@ document.addEventListener('DOMContentLoaded', function() {
     var myImage = document.getElementById('myImage');
 
     myImage.addEventListener('click', function() {
-        if (this.style.width === '200px') {
-            this.style.width = '400px'; 
-        } else {
+        if (this.style.width === '100px') {
             this.style.width = '200px'; 
+        } else {
+            this.style.width = '100px'; 
         }
     });
 });
