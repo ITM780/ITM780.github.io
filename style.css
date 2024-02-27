@@ -95,3 +95,17 @@ a:visted {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+nav {
+    background-color: #ddd;
+    padding: 10px;
+}
+
+nav a {
+    font-weight: normal; 
+}
+
+nav a:hover {
+    color: #FF0000; 
+    font-weight: bold; 
+}
