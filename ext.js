@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
-ocument.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function() {
     var myImage = document.getElementById('myImage');
 
     myImage.addEventListener('click', function() {
