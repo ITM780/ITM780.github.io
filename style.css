@@ -108,3 +108,14 @@ nav a:hover {
 nav b {
     margin-right: 10px;
 }
+
+.form {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+    
