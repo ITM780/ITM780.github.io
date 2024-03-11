@@ -38,7 +38,7 @@ function mouseOut(element){
     element.style.fontSize = "inherit"; 
 }
 
-<!-- JavaScript for Form -->
+// JavaScript for Form
 function myfunc(event) {
     event.preventDefault();
     var Name = document.getElementById('Name').value;
