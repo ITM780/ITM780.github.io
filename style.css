@@ -1,4 +1,4 @@
-/* Body Styles */
+/* Body Settings */
 body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
@@ -7,7 +7,7 @@ body {
     margin: 15px;
 }
 
-/* Different Header Styles */
+/* Different Header Settings */
 h1 {
     color: #FF0000;
     font-size: 20pt;
@@ -27,7 +27,7 @@ h3 {
     margin-top: 40px;
 }
 
-/* Paragraph Styles */
+/* Paragraph Settings */
 p {
     color: #98FB98;
     font-size: 13pt;
@@ -47,7 +47,7 @@ a:visted {
     color: #FF00FF;
 }
 
-/* Table Styles */
+/* Table Settings */
 .table-container {
     display: table;
     width: 68%
@@ -59,7 +59,7 @@ a:visted {
     align-items: center;
 }
 
-/* Cell Styles */
+/* Cell Settings */
 .row {
     display: table-row;
 }
@@ -84,7 +84,7 @@ a:visted {
     margin-bottom: 40px; 
 }
 
-/* Dropdown Styles */
+/* Dropdown Settings */
 .dropdown {
     display: inline-block;
 }
@@ -112,7 +112,7 @@ a:visted {
     display: block;
 }
 
-/* Navigation Styles */
+/* Navigation Settings */
 nav a {
     font-weight: normal;
 }
@@ -166,7 +166,7 @@ nav ul ul li {
     display: block;
 }
 
-/* Form Styles */
+/* Form Settings */
 .form-container {
     display: flex;
     justify-content: center;
