@@ -1,3 +1,4 @@
+// Enter Name Button Settings
 document.addEventListener('DOMContentLoaded', function() {
     var nameButton = document.getElementById('nameButton');
     var outputElement = document.getElementById('output');
@@ -10,6 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// Adjustable Image Settings
 document.addEventListener('DOMContentLoaded', function() {
     var myImage = document.getElementById('myImage');
 
@@ -22,12 +24,14 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 
+// MouseOver Settings
 function mouseOver(element){
     element.style.color = "#ADD8E6";
     element.style.fontWeight = "bold";
     element.style.fontSize = "18px";
 }
 
+// MouseOut Settings
 function mouseOut(element){
     element.style.color = "#000000";
     element.style.fontWeight = "normal";
