@@ -33,3 +33,9 @@ function mouseOut(element){
     element.style.fontWeight = "normal";
     element.style.fontSize = "inherit"; 
 }
+
+function myfunc(event) {
+    event.preventDefault();
+    var full_name = document.getElementById('full_name')
+
+
