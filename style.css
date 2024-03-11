@@ -46,6 +46,11 @@ a:visted {
     height: 40%;
 }
 
+.content-wrapper {
+    display: flex;
+    align-items: center;
+}
+
 .row {
     display: table-row;
 }
