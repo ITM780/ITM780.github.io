@@ -109,13 +109,13 @@ nav b {
     margin-right: 10px;
 }
 
-.form {
-    margin-bottom: 15px;
-}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
 
-label {
-    display: block;
-    font-weight: bold;
-}
-
-    
+  form {
+    width: 400px; 
+  }
