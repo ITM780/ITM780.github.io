@@ -29,7 +29,7 @@ h3 {
 
 /* Paragraph Settings */
 p {
-    color: #98FB98;
+    color: #333333;
     font-size: 13pt;
     line-height: 1.5;
 }
@@ -181,3 +181,13 @@ nav ul ul li {
   form {
     width: 400px; 
   }
+
+#myImage {
+    margin-right: 20px;
+}
+
+.section-box {
+    background-color: #ffffff;
+    border: 2px solid #ff0000;
+    padding: 15px;
+}
