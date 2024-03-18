@@ -115,6 +115,7 @@ a:visted {
 /* Navigation Settings */
 nav a {
     font-weight: normal;
+    text-align: right;
 }
 
 nav a:hover {
