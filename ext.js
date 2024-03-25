@@ -71,9 +71,15 @@ function myfunc(event) {
     localStorage.setItem('Is_Question', Question);
 }
 
-function changeSizeByBtn(font-size) {
-    let cont = document.getElementById("font-size");
-    cont.style.fontSize = font-size + 'px';
+function changeFontSize(size) {
+        var body = document.body;
+        if (size === 'Small') {
+            body.style.fontSize = '10px';
+        } else if (size === 'Medium') {
+            body.style.fontSize = '17px';
+        } else if (size === 'Large') {
+            body.style.fontSize = '25px';
+        }
 }
 
 function changeColor(color) {
