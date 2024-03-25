@@ -74,3 +74,4 @@ function myfunc(event) {
 let cont = document.getElementById("container");
 function changeSizeByBtn(size) {
     cont.style.fontSize = size;
+}
