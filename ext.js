@@ -70,3 +70,7 @@ function myfunc(event) {
     localStorage.setItem('Is_Message', Message);
     localStorage.setItem('Is_Question', Question);
 }
+
+let cont = document.getElementById("container");
+function changeSizeByBtn(size) {
+    cont.style.10 = size;
