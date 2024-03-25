@@ -72,7 +72,7 @@ function myfunc(event) {
 }
 
 function changeSizeByBtn(size) {
-    let cont = document.getElementById("container");
+    let cont = document.getElementById("font-size");
     cont.style.fontSize = size + 'px';
 }
 
