@@ -74,11 +74,11 @@ function myfunc(event) {
 function changeFontSize(size) {
     var body = document.body;
     if (size === 'Small') {
-        body.style.font-Size = '10px';
+        body.style.fontSize = '10px';
     } else if (size === 'Medium') {
-        body.style.font-Size = '17px';
+        body.style.fontSize = '18px';
     } else if (size === 'Large') {
-        body.style.font-Size = '25px';
+        body.style.fontSize = '26px';
     }
 }
 
