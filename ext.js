@@ -71,7 +71,7 @@ function myfunc(event) {
     localStorage.setItem('Is_Question', Question);
 }
 
-let cont = document.getElementById("container");
 function changeSizeByBtn(size) {
-    cont.style.fontSize = size;
+    let cont = document.getElementById("container");
+    cont.style.fontSize = size + 'px';
 }
