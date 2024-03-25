@@ -71,9 +71,9 @@ function myfunc(event) {
     localStorage.setItem('Is_Question', Question);
 }
 
-function changeSizeByBtn(size) {
+function changeSizeByBtn(font-size) {
     let cont = document.getElementById("font-size");
-    cont.style.fontSize = size + 'px';
+    cont.style.fontSize = font-size + 'px';
 }
 
 function changeColor(color) {
