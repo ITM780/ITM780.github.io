@@ -75,3 +75,7 @@ function changeSizeByBtn(size) {
     let cont = document.getElementById("container");
     cont.style.fontSize = size + 'px';
 }
+
+function changeColor(color) {
+    document.body.style.backgroundColor = color;
+}
