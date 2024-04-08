@@ -201,3 +201,11 @@ ul {
 ul li {
   list-style: none;
 }
+
+/* Positioning for left-aligned content */
+.left-aligned-content {
+    position: absolute;
+    left: 0;
+    top: 150px;
+    padding: 20px;
+}
