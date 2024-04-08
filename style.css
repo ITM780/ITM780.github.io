@@ -191,3 +191,13 @@ nav ul ul li {
     border: 2px solid #ff0000;
     padding: 15px;
 }
+
+/* Centering the text in the <ul> */
+ul {
+  text-align: center;
+}
+
+/* Removing default list styles */
+ul li {
+  list-style: none;
+}
