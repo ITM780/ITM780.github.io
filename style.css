@@ -3,7 +3,7 @@ body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
     color: #ADD8E6;
-    background-color: #FAF9DE;
+    background-color: #d3d3d3;
     margin: 15px;
 }
 
@@ -29,7 +29,7 @@ h3 {
 
 /* Paragraph Settings */
 p {
-    color: #333333;
+    color: #A9A9A9;
     font-size: 13pt;
     line-height: 1.5;
 }
