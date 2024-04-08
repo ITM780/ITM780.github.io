@@ -1,7 +1,7 @@
 /* Body Settings */
 body {
     font-family: Arial, sans-serif;
-    font-size: 12pt;
+    font-size: 16pt;
     color: #00008B;
     background-color: #d3d3d3;
     margin: 15px;
@@ -10,27 +10,27 @@ body {
 /* Different Header Settings */
 h1 {
     color: #FF0000;
-    font-size: 20pt;
+    font-size: 24pt;
     text-align: center;
     margin-top: 40px;
 }
 
 h2 {
     color: #006400;
-    font-size: 18pt;
+    font-size: 22pt;
     margin-top: 40px;
 }
 
 h3 {
     color: #0000FF;
-    font-size: 16pt;
+    font-size: 20pt;
     margin-top: 40px;
 }
 
 /* Paragraph Settings */
 p {
     color: #00008B;
-    font-size: 13pt;
+    font-size: 16pt;
     line-height: 1.5;
 }
 
@@ -127,7 +127,7 @@ nav a:hover {
 }
 
 nav b {
-    margin-right: 10px;
+    margin-right: 16px;
 }
 
 nav ul {
@@ -199,7 +199,7 @@ ul li {
 
 .centered-content {
     width: 100%;
-    max-width: 800px;
+    max-width: 400px;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
