@@ -2,7 +2,7 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 12pt;
-    color: #ADD8E6;
+    color: #00008B;
     background-color: #d3d3d3;
     margin: 15px;
 }
@@ -16,7 +16,7 @@ h1 {
 }
 
 h2 {
-    color: #00FF00;
+    color: #006400;
     font-size: 18pt;
     margin-top: 40px;
 }
